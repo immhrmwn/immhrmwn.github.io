@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 0;
+}
+
+body {
+    background-image: url(img/bg2.jpg);
+    text-align: center;
+    font-family: 'Slabo 27px', serif ;
+}
+
+header {
+    background-color: black;
+    padding: 5em;
+    position: fixed;
+    width: 300px;
+    top: 100px;
+}
+
+h3 {
+    color: white;
+    font-variant: small-caps;
+}
+
+/* progress */
+.main {
+    background-color: white;
+    opacity: 0.95;
+    padding: 2em;
+    position: absolute;
+    width: 250px;
+    top: 300px;
+    right: 200px;
+}
+
+.guide {
+    background-color: #ffc400;
+    opacity: 0.95;
+    padding: 2em;
+    position: fixed;
+    width: 250px;
+    top: 260px;
+    left: 0;
+}
+
+/* progress */
+
+section {   
+    width: 606px;
+    margin: 5px auto;
+    overflow: auto;
+    background-color: white;
+}
+
+.btn {
+    width: 200px;
+    float: left;
+    margin: 2px 1px;
+}
+
+.btn:hover {  
+    opacity: 0.5;
+}
+
+.active {
+    opacity: 0.5;
+}
